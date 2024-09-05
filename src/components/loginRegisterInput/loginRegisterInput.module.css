@@ -1,0 +1,41 @@
+form {
+  width: 100%;
+}
+
+.form_container {
+  margin-block: 2rem;
+  width: 100%;
+  max-width: 460px;
+  display: flex;
+  margin-inline: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_container label {
+  align-self: flex-start;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+}
+
+.form_container input {
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 0.4rem;
+  border-radius: 6px;
+  border-color: rgba(0, 0, 0, 0.6);
+}
+
+.form_container button {
+  align-self: center;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: var(--bg-color);
+  background-color: var(--font-color);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}

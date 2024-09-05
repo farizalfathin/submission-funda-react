@@ -1,0 +1,35 @@
+.note_item {
+  width: 100%;
+  border: 1px solid var(--corner-color);
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  padding: 0.8rem 0.6rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.note_item:hover {
+  transform: translateY(-0.6rem);
+}
+
+.note_item p:nth-of-type(1) {
+  margin-bottom: 0.6rem;
+}
+
+@media screen and (min-width: 640px) {
+  .note_item {
+    width: 46%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .note_item {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .note_item {
+    width: 23%;
+  }
+}
